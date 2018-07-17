@@ -1,0 +1,45 @@
+#imgBasket{
+  height:100px;
+  width:100px;
+}
+#close{
+  margin-right:500px;
+}
+#lineProductSelling{
+  display: flex;
+  width:100%;
+  flex-wrap: wrap;
+  margin-top:100px;
+}
+#nameProduct{
+  width:33.333%;
+  text-align: center;
+}
+#quantityProduct{
+  width:33.333%;
+  text-align: center;
+}
+#priceProduct{
+  width:33.333%;
+  text-align: center;
+}
+#priceCommand{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:100%;
+  text-align: right;
+  padding-right:300px;
+}
+table{
+  width:100%;
+}
+.delete{
+  margin-top:20px;
+  margin-right:10px;
+}
+#pay{
+}
+.modal-body{
+  height:auto;
+}
