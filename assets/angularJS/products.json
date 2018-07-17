@@ -1,10 +1,611 @@
 [
-  {"id":"1",
-  "name":"PS4",
-  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  "price":45},
-  {"id":"2",
-  "name":"Xbox",
-  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  "price":95}
+  {
+    "name":"World of Warcraft : Battle for Azeroth",
+    "support":"jeux",
+    "image": "assets/img/j01.jpg",
+    "price":"49.99",
+    "id":"J01"
+  },
+  {
+    "name":"Fallout 76",
+    "support":"jeux",
+    "image": "assets/img/j02.jpg",
+    "price":"59.99",
+    "id":"J02"
+  },
+  {
+    "name":"The Crew 2",
+    "support":"jeux",
+    "image": "assets/img/j03.jpg",
+    "price":"99.99",
+    "id":"J03"
+  },
+  {
+    "name":"La terre du millieu l'ombre de la guerre",
+    "support":"jeux",
+    "image": "assets/img/j04.jpg",
+    "price":"34.99",
+    "id":"J04"
+  },
+  {
+    "name":"Far Cry 5",
+    "support":"jeux",
+    "image": "assets/img/j05.png",
+    "price":"89.99",
+    "id":"J05"
+  },
+  {
+    "name":"Call of Duty: Black ops 4",
+    "support":"jeux",
+    "image": "assets/img/j06.jpg",
+    "price":"74.99",
+    "id":"J06"
+  },
+  {
+    "name":"Assassin's Creed Odyssey",
+    "support":"jeux",
+    "image": "assets/img/j07.png",
+    "price":"219.99",
+    "id":"J07"
+  },
+  {
+    "name":"Zelda Breath Of The Wild",
+    "support":"jeux",
+    "image": "assets/img/j08.jpg",
+    "price":"54.99",
+    "id":"J08"
+  },
+  {
+    "name":"Minecraft",
+    "support":"jeux",
+    "image": "assets/img/j09.jpg",
+    "price":"25.99",
+    "id":"J09"
+  },
+  {
+    "name":"RaimbowSix Siege",
+    "support":"jeux",
+    "image": "assets/img/j10.jpg",
+    "price":"129.99",
+    "id":"J10"
+  },
+  {
+    "name":"Outlast 2",
+    "support":"jeux",
+    "image": "assets/img/j11.jpg",
+    "price":"22.99",
+    "id":"J11"
+  },
+  {
+    "name":"Resident evil 7",
+    "support":"jeux",
+    "image": "assets/img/j12.jpg",
+    "price":"49.99",
+    "id":"J12"
+  },
+  {
+    "name":"MarioKart 8 Deluxe",
+    "image": "assets/img/j13.jpg",
+    "support":"jeux",
+    "price":"52.99",
+    "id":"J13"
+  },
+  {
+    "name":"Street Figther",
+    "support":"jeux",
+    "image": "assets/img/j14.jpg",
+    "price":"40.00",
+    "id":"J14"
+  },
+  {
+    "name":"AsusRog GL73VM-BA291T",
+    "support":"pc gamer",
+    "marque":"AsusRog",
+    "image": "assets/img/pc01.jpg",
+    "price":"1349.99",
+    "id":"PC01"
+  },
+  {
+    "name":"AsusRog griffin G703GIE5048T",
+    "support":"pc gamer",
+    "marque":"AsusRog",
+    "image": "assets/img/pc02.jpg",
+    "price":"3999.90",
+    "id":"PC02"
+  },
+  {
+    "name":"AcerPredator Helios 300 G3-572-54P8",
+    "support":"pc gamer",
+    "marque":"AcerPredator",
+    "image": "assets/img/pc03.jpg",
+    "price":"1079.90",
+    "id":"PC03"
+  },
+  {
+    "name":"AlienWare 17",
+    "support":"pc gamer",
+    "marque":"AlienWare",
+    "image": "assets/img/pc04.png",
+    "price":"1499.99",
+    "id":"PC04"
+  },
+  {
+    "name":"Hp probook 470 G5",
+    "support":"Pc gamer",
+    "marque":"Hp",
+    "image": "assets/img/pc05.jpg",
+    "price":"814.80",
+    "id":"PC05"
+  },
+  {
+    "name":"Macbook MPXR2FN/A",
+    "support":"Pc gamer",
+    "marque":"Apple",
+    "image": "assets/img/pc06.jpg",
+    "price":"1346.99",
+    "id":"PC06"
+  },
+  {
+    "name":"Dell optiplex 790 SFF",
+    "support":"Ordinateur bureautique",
+    "marque":"Dell",
+    "image": "assets/img/or01.jpg",
+    "price":"422.99",
+    "id":"OR01"
+  },
+  {
+    "name":"Hp pavillion",
+    "support":"Ordinateur bureautique",
+    "marque":"Hp",
+    "image": "assets/img/or02.jpg",
+    "price":"549.00",
+    "id":"OR02"
+  },
+  {
+    "name":"asus Geforce GTX 1080 strix 8GO",
+    "support":"Carte Graphique",
+    "marque":"ASUS",
+    "image": "assets/img/cp01.jpg",
+    "price":"669.90",
+    "id":"CP01"
+  },
+  {
+    "name":"asus Geforce GTX 1050 Ti strix 4GO",
+    "support":"Carte Graphique",
+    "marque":"ASUS",
+    "image": "assets/img/cp02.jpg",
+    "price":"209.90",
+    "id":"CP02"
+  },
+  {
+    "name":"MSI Geforce GTX 1080 gaming 4GO",
+    "support":"Carte Graphique",
+    "marque":"MSI",
+    "image": "assets/img/cp03.png",
+    "price":"529.90",
+    "id":"CP03"
+  },
+  {
+    "name":"MSI radeon RX vega 56 air boots 8GO",
+    "support":"Carte Graphique",
+    "marque":"MSI",
+    "image": "assets/img/cp04.png",
+    "price":"629.90",
+    "id":"CP04"
+  },
+  {
+    "name":"GygaByte Geforce GTX 1080 Ti 11GO",
+    "support":"Carte Graphique",
+    "marque":"GygaByte",
+    "image": "assets/img/cp05.png",
+    "price":"934.90",
+    "id":"CP05"
+  },
+  {
+    "name":"GygaByte Geforce GTX 1050 windorce 2GO",
+    "support":"Carte Graphique",
+    "marque":"GygaByte",
+    "image": "assets/img/cp06.png",
+    "price":"154.90",
+    "id":"CP06"
+  },
+  {
+    "name":"Intel CORE I7 6900K",
+    "support":"Processeurs",
+    "marque":"intel",
+    "image": "assets/img/cp07.jpg",
+    "price":"1059.90",
+    "id":"CP07"
+  },
+  {
+    "name":"Intel CORE I3 8100",
+    "support":"Processeurs",
+    "marque":"intel",
+    "image": "assets/img/cp08.jpg",
+    "price":"119.90",
+    "id":"CP08"
+  },
+  {
+    "name":"AMD A10 9700 (3,5GHz)",
+    "support":"Processeurs",
+    "marque":"AMD",
+    "image": "assets/img/cp09.jpg",
+    "price":"67.90",
+    "id":"CP09"
+  },
+  {
+    "name":"AMD A8  9600 (3,1GHz)",
+    "support":"Processeurs",
+    "marque":"AMD",
+    "image": "assets/img/cp10.jpg",
+    "price":"56.90",
+    "id":"CP10"
+  },
+  {
+    "name":"Asus rog STRIX Z370-E",
+    "support":"Carte Mère",
+    "marque":"Asus",
+    "image": "assets/img/cp11.jpg",
+    "price":"226.90",
+    "id":"CP11"
+  },
+  {
+    "name":"Asus rog STRIX Z370-I",
+    "support":"Carte Mère",
+    "marque":"Asus",
+    "image": "assets/img/cp12.jpg",
+    "price":"218.90",
+    "id":"CP12"
+  },
+  {
+    "name":"GygaByte H370 aorus",
+    "support":"Carte Mère",
+    "marque":"GygaByte",
+    "image": "assets/img/cp13.jpg",
+    "price":"139.99",
+    "id":"CP13"
+  },
+  {
+    "name":"GygaByte X470 aorus",
+    "support":"Carte Mère",
+    "marque":"GygaByte",
+    "image": "assets/img/cp14.jpg",
+    "price":"249.90",
+    "id":"CP14"
+  },
+  {
+    "name":"MSI Z370 gaming M5",
+    "support":"Carte Mère",
+    "marque":"MSI",
+    "image": "assets/img/cp15.jpg",
+    "price":"218.90",
+    "id":"CP15"
+  },
+  {
+    "name":"MSI Z370 gaming pro carbonne",
+    "support":"Carte Mère",
+    "marque":"MSI",
+    "image": "assets/img/cp16.png",
+    "price":"169.90",
+    "id":"CP16"
+  },
+  {
+    "name":"Corsair vengeance Lpx B DDR4 4x8GO",
+    "support":"barette de memoire",
+    "marque":"Corsair",
+    "image": "assets/img/cp17.jpg",
+    "price":"499.90",
+    "id":"CP17"
+  },
+  {
+    "name":"Corsair vengeance Lpx B DDR3 2x4GO",
+    "support":"barette de memoire",
+    "marque":"Corsair",
+    "image": "assets/img/cp18.jpg",
+    "price":"78.90",
+    "id":"CP18"
+  },
+  {
+    "name":"G.Skill trident Z RGB DDR4 2x8GO",
+    "support":"barette de memoire",
+    "marque":"G.Skill",
+    "image": "assets/img/cp19.jpg",
+    "price":"209.90",
+    "id":"CP19"
+  },
+  {
+    "name":"G.Skill ripjaws V red DDR4 2x8GO",
+    "support":"barette de memoire",
+    "marque":"G.Skill",
+    "image": "assets/img/cp20.jpg",
+    "price":"224.90",
+    "id":"CP20"
+  },
+  {
+    "name":"Corsair TX 750M",
+    "support":"Alimentation",
+    "marque":"Corsair",
+    "image": "assets/img/cp21.jpg",
+    "price":"99.90",
+    "id":"CP21"
+  },
+  {
+    "name":"Corsair RM 650x-650W",
+    "support":"Alimentation",
+    "marque":"Corsair",
+    "image": "assets/img/cp22.jpg",
+    "price":"109.90",
+    "id":"CP22"
+  },
+  {
+    "name":"evga white 500W",
+    "support":"Alimentation",
+    "marque":"evga",
+    "image": "assets/img/cp23.png",
+    "price":"44.90",
+    "id":"CP23"
+  },
+  {
+    "name":"evga BT 450W",
+    "support":"Alimentation",
+    "marque":"evga",
+    "image": "assets/img/cp24.jpg",
+    "price":"44.90",
+    "id":"CP24"
+  },
+  {
+    "name":"Corsair Hydro serie M100 I V2",
+    "support":"refroidisseur",
+    "marque":"Corsair",
+    "image": "assets/img/cp25.jpg",
+    "price":"124.90",
+    "id":"CP25"
+  },
+  {
+    "name":"Corsair Hydro serie M105",
+    "support":"refroidisseur",
+    "marque":"Corsair",
+    "image": "assets/img/cp26.jpg",
+    "price":"128.99",
+    "id":"CP26"
+  },
+  {
+    "name":"CoolerMaster Hyper 212 led",
+    "support":"refroidisseur",
+    "marque":"CoolerMaster",
+    "image": "assets/img/cp27.jpg",
+    "price":"34.99",
+    "id":"CP27"
+  },
+  {
+    "name":"CoolerMaster masterliquid ML240L RGB",
+    "support":"refroidisseur",
+    "marque":"CoolerMaster",
+    "image": "assets/img/cp28.jpg",
+    "price":"69.90",
+    "id":"CP28"
+  },
+  {
+    "name":"Noctua NM-D14",
+    "support":"refroidisseur",
+    "marque":"Noctua",
+    "image": "assets/img/cp29.jpg",
+    "price":"78.89",
+    "id":"CP29"
+  },
+  {
+    "name":"Noctua NM-D15",
+    "support":"refroidisseur",
+    "marque":"Noctua",
+    "image": "assets/img/cp30.jpg",
+    "price":"94.99",
+    "id":"CP30"
+  },
+  {
+    "name":"CoolerMaster masterbox Q300P",
+    "support":"boitier pc",
+    "marque":"CoolerMaster",
+    "image": "assets/img/cp31.png",
+    "price":"62.90",
+    "id":"CP31"
+  },
+  {
+    "name":"CoolerMaster mastercase H500M",
+    "support":"boitier pc",
+    "marque":"CoolerMaster",
+    "image": "assets/img/cp32.jpg",
+    "price":"199.90",
+    "id":"CP32"
+  },
+  {
+    "name":"Corsair carbide SPEC 04 B/S",
+    "support":"boitier pc",
+    "marque":"Corsair",
+    "image": "assets/img/cp33.jpg",
+    "price":"57.90",
+    "id":"CP33"
+  },
+  {
+    "name":"Corsair carbide SPEC-omega N/R",
+    "support":"boitier pc",
+    "marque":"Corsair",
+    "image": "assets/img/cp34.jpg",
+    "price":"99.90",
+    "id":"CP34"
+  },
+  {
+    "name":"EmpireGaming Darkraw",
+    "support":"boitier pc",
+    "marque":"Empire Gaming",
+    "image": "assets/img/cp35.jpg",
+    "price":"75.90",
+    "id":"CP35"
+  },
+  {
+    "name":"EmpireGaming warfare noir",
+    "support":"boitier pc",
+    "marque":"Empire Gaming",
+    "image": "assets/img/cp36.jpg",
+    "price":"59.90",
+    "id":"CP36"
+  },
+  {
+    "name":"DXracer OH/RV001/NV",
+    "support":"Fauteuil",
+    "marque":"DXracer",
+    "image": "assets/img/f01.png",
+    "price":"369.00",
+    "id":"F01"
+  },
+  {
+    "name":"NobleChair hero black/red",
+    "support":"Fauteuil",
+    "marque":"NobleChair",
+    "image": "assets/img/f02.jpg",
+    "price":"399.90",
+    "id":"F02"
+  },
+  {
+    "name":"Spirit Of Gamer XPERT-M5",
+    "support":"Accessoires",
+    "marque":"Spirit Of Gamer",
+    "image": "assets/img/a01.jpg",
+    "price":"39.90",
+    "id":"A01"
+  },
+  {
+    "name":"MadCatz R.A.T proX",
+    "support":"Accessoires",
+    "marque":"MadCatz",
+    "image": "assets/img/a02.jpg",
+    "price":"154.90",
+    "id":"A02"
+  },
+  {
+    "name":"Razer black window Chroma V2",
+    "support":"Accessoires",
+    "marque":"Razer",
+    "image": "assets/img/a03.jpg",
+    "price":"169.90",
+    "id":"A03"
+  },
+  {
+    "name":"MSI vigor GK80-Cherry MX red",
+    "support":"Accessoires",
+    "marque":"MSI",
+    "image": "assets/img/a04.jpg",
+    "price":"179.90",
+    "id":"A04"
+  },
+  {
+    "name":"turtle beach elite PRO",
+    "support":"Accessoires",
+    "marque":"Turtle beach",
+    "image": "assets/img/a05.png",
+    "price":"199.95",
+    "id":"A05"
+  },
+  {
+    "name":"Razer electra v2 USB",
+    "support":"Accessoires",
+    "marque":"Razer",
+    "image": "assets/img/a06.jpg",
+    "price":"69.90",
+    "id":"A06"
+  },
+  {
+    "name":"Tapis XXL overwatch",
+    "support":"Accessoires",
+    "image": "assets/img/a07.jpg",
+    "price":"9.99",
+    "id":"A07"
+  },
+  {
+    "name":"Razer XXL",
+    "support":"Accessoires",
+    "marque":"Razer",
+    "image": "assets/img/a08.jpg",
+    "price":"11.90",
+    "id":"A08"
+  },
+  {
+    "name":"IIYAMA Gmaster blackhawk",
+    "support":"Accessoires",
+    "marque":"IIYAMA",
+    "image": "assets/img/a09.jpg",
+    "price":"259.00",
+    "id":"A09"
+  },
+  {
+    "name":"AcerPredator 4K",
+    "support":"Accessoires",
+    "marque":"AcerPredator",
+    "image": "assets/img/a10.jpg",
+    "price":"1199.00",
+    "id":"A10"
+  },
+  {
+    "name":"Mega drive 1",
+    "support":"console",
+    "marque":"Sega",
+    "image": "assets/img/c01.jpeg",
+    "price":"80.00",
+    "id":"C01"
+  },
+  {
+    "name":"PS4 pro 1TO",
+    "support":"console",
+    "marque":"Sony",
+    "image": "assets/img/c02.jpg",
+    "price":"558.90",
+    "id":"C02"
+  },
+  {
+    "name":"Xbox 360",
+    "support":"console",
+    "marque":"Microsoft",
+    "image": "assets/img/c03.jpeg",
+    "price":"150.00",
+    "id":"C03"
+  },
+  {
+    "name":"Nintendo NES",
+    "support":"console",
+    "marque":"Nintendo",
+    "image": "assets/img/c04.jpeg",
+    "price":"90.00",
+    "id":"C04"
+  },
+  {
+    "name":"Atary",
+    "support":"console",
+    "marque":"Atary",
+    "image": "assets/img/c05.jpeg",
+    "price":"100.00",
+    "id":"C05"
+  },
+  {
+    "name":"PS1",
+    "support":"console",
+    "marque":"Sony",
+    "image": "assets/img/c06.jpeg",
+    "price":"60.00",
+    "id":"C06"
+  },
+  {
+    "name":"Xbox one X",
+    "support":"console",
+    "marque":"Microsoft",
+    "image": "assets/img/c07.jpg",
+    "price":"499.99",
+    "id":"C07"
+  },
+  {
+    "name":"Nintendo Switch",
+    "support":"console",
+    "marque":"Nintendo",
+    "image": "assets/img/c08.jpg",
+    "price":"329.00",
+    "id":"C08"
+  }
 ]

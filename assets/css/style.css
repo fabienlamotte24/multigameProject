@@ -1,5 +1,5 @@
 #imgBasket{
-  height:100px;
+  height:75px;
   width:100px;
 }
 #close{
@@ -42,4 +42,50 @@ table{
 }
 .modal-body{
   height:auto;
+}
+#banniere{
+width: 100%;
+}
+.card-title{
+  color:orange;
+}
+#note{
+  margin-right: 100px;
+}
+body{
+  background:rgba(44, 62, 80, 0.5);
+}
+#color{
+  font-family: 'Bungee Inline', cursive;
+  font-family: 'Alegreya SC', serif;
+  font-family: 'Bowlby One SC', cursive;
+  color: white;
+  font-size: 30px;
+}
+.card{
+  float: left;
+  height: 35em;
+  text-align: center;
+  margin-right:13px;
+  margin-top: 10px;
+}
+#navbarNavAltMarkup{
+  display: flex;
+  justify-content: center;
+}
+#navbar{
+  font-family: 'Bungee Inline', cursive;
+  font-family: 'Alegreya SC', serif;
+  font-family: 'Bowlby One SC', cursive;
+  color: orange;
+}
+#footer{
+  height: 23em;
+}
+#navbarDropdown{
+  font-family: 'Bungee Inline', cursive;
+  font-family: 'Alegreya SC', serif;
+  font-family: 'Bowlby One SC', cursive;
+  color: white;
+  font-size: 25px;
 }
